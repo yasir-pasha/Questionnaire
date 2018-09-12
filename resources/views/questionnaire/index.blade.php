@@ -51,6 +51,10 @@
                 </td>
             </tr>
             @endforeach
+            @else
+            <tr>
+                <td colspan="7" class="text-center">No record Found</td>
+            </tr>
         @endif
 
         </tbody>
