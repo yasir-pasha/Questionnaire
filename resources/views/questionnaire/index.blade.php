@@ -58,10 +58,8 @@
         @endif
 
         </tbody>
-
     </table>
     <div class="float-right">
         {!! $questionnaires->render() !!}
     </div>
-
 @stop
